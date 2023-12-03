@@ -1,0 +1,250 @@
+/*SOBRE*/
+
+    .bloco__sobre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 90px 0;
+        
+    }
+
+    .resumo__sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 600px;
+        height: 500px;
+        background-color: var(--branco);
+        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        padding: 30px;
+        box-sizing: border-box;
+        font-size: 1.2em
+    }
+
+    .bt__ver__curriculum {
+        display: flex;
+        width: 313.2px;
+        justify-content: center;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .bt__ver__curriculum:hover {
+        -ms-transform: scale(1.3);
+        transform: scale(1.05);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .desabilitar__habilitar:checked ~ .curriculo {
+        display: block;
+    }
+
+    .desabilitar__habilitar:checked ~ .bloco__sobre {
+        display: none;
+    }
+
+    .desabilitar__habilitar {
+        display: none;
+    }
+
+    .redes__sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        height: 500px;
+        background-color: var(--branco);
+        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+    }
+
+    .cabecalho__redes__sobre {
+        background-color: var(--cinza-principal);
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        color: var(--branco);
+    }
+
+    .botoes__redes__sociais {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 230px;
+        margin: 45px auto;
+        text-align: center;
+        padding: 15px;
+        border: 2px solid var(--cinza-principal);
+        color: var(--cinza-principal);
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .insta:hover {
+        background-image: linear-gradient(to right, #ff8400, #ff008f);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+    .linkedin:hover {
+        background-image: linear-gradient(to right, #3668ff, #005ae0);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+    .github:hover {
+        background-image: linear-gradient(to right, #81007d, #070058);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+/*FIM SOBRE*/
+
+/*CURRICULUM*/
+
+    .links {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cinza-links);
+    }
+
+    .curriculo {
+        display: none;
+        width: 1000px;
+        height: auto;
+        margin: 50px auto;
+        padding: 2em 3.5em;
+        box-sizing: border-box;
+        background-color: var(--branco);
+        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+    }
+
+    .curriculo a {
+        text-decoration: none;
+        color: var(--cinza-links);
+    }
+
+    .nome {
+        margin-bottom: .5em;
+    }
+
+    .dados__pessoais {
+        margin-bottom: 3em;
+    }
+
+    .box {  
+        margin: 1em 0;
+    }
+
+    .subtitulo {
+        padding-bottom: 0.5em;
+        border-bottom: solid 3px var(--cinza-secundário);
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1em 0;
+        margin: 1em 0;
+        box-sizing: border-box;
+    }
+
+    .referencia {
+        margin-bottom: 1em;
+    }
+
+    .subconteudo {
+        width: 50%;
+    }
+
+    .empresa {
+        margin-bottom: 1em;
+    }
+
+    .competencias li {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .habilidades li {
+        list-style-type: none;
+        padding: 0 1em;
+        box-sizing: border-box;
+        font-size: 1em;
+    }
+
+    .box__impressao {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .bt__imprimir {
+        width: auto;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin: 26px 0 26px auto;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 1em;
+    }
+
+    .bt__imprimir:hover {
+        opacity: 70%;
+        cursor: pointer;
+    }
+
+/*FIM CURRICULUM*/
+
+@media print {
+
+    .curriculo a {
+        display: none;
+    }
+
+    .cabecalho {
+        display: none;
+    }
+
+    .bloco__sobre {
+        display: none;
+    }
+    
+    .curriculo {
+        box-shadow: none;
+        padding: 0;
+        margin: auto;
+        font-family: none;
+        font-size: 1.1em;
+    }
+
+    .bt__imprimir {
+        display: none;
+    }
+
+}

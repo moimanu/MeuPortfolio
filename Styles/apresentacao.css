@@ -1,0 +1,22 @@
+/*APRESENTACAO*/
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 150px;
+
+        padding: 1em;
+        box-sizing: border-box;
+
+        text-align: center;
+    }
+
+    .apresentacao h4 {
+        font-weight: 500;
+    }
+
+/*FIM APRESENTACAO*/

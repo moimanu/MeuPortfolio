@@ -1,0 +1,39 @@
+/*PÁGINA-NAV*/
+
+    .pagina__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+    }
+
+    .pagina__nav a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+        margin: 0 15px;
+        background-color: var(--branco);
+        color: var(--cinza-principal);
+        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pagina__nav a img {
+        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .pagina__nav a:hover {
+        -ms-transform: scale(1.3);
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+/*FIM PÁGINA-NAV*/
