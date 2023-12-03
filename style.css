@@ -1,0 +1,42 @@
+@import url(Styles/cabecalho.css);
+@import url(Styles/apresentacao.css);
+@import url(Styles/pagina-nav.css);
+@import url(Styles/galeria.css);
+@import url(Styles/sobre.css);
+@import url(Styles/espacador.css);
+@import url(Styles/media-querrys/media-1024.css);
+@import url(Styles/media-querrys/media-600.css);
+
+:root {
+    /*CONFIGURAÇÕES*/
+    --fonte-principal: "Poppins";
+
+    /*CORES*/
+    --cinza-principal: #121212;
+    --cinza-secundário: #dddddd;
+    --cinza-links: #ababab;
+    --preto-sombra: #0000000f;
+    --branco: #ffffff;   
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: var(--cinza-principal);
+    background-color: #F1FDFF;
+    font-family: var(--fonte-principal);
+}
+
+::selection {
+    background-color: rgb(242, 0, 255);
+}
