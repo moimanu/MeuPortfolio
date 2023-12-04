@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) {
+
+    /*pagina-nav.css*/
+
+        .pagina__nav {
+            display: none;
+        }
+
+    /*fim pagina-nav.css*/
+
+    /*espacador.css*/
+
+        .espacador {
+            display: none;
+        }
+
+    /*fim espacador.css*/
+
+    /*apresentacao.css*/
+        
+        .apresentacao h2 {
+            font-size: 1.2em;
+        }
+        
+    /*fim apresentacao.css*/
+
+    /*galeria.css*/
+
+        .galeria {
+            margin-bottom: 40px;
+        }
+
+        .bloco__galeria {
+            align-items: center;
+        }
+
+        .bloco__visualizacao {
+            display: none;
+            flex-direction: row;
+        }
+
+        .bloco__visualizacao li {
+            flex-direction: column;
+        }
+
+        .sub__bloco__visualizacao:hover {
+            transform: scale(1.03);
+        }
+
+        .bt__abrir__fechar {
+            display: flex;
+        }
+
+        .bt__voltar__galeria {
+            display: flex;
+        }
+
+        .input__abrir__fechar:checked ~ .bloco__visualizacao {
+            display: flex;
+        }
+
+        .input__abrir__fechar:checked ~ .bt__abrir__fechar {
+            background-color: var(--vermelho-alerta);
+        }
+
+        .nav__mobile p {
+            display: none;
+        }
+
+    /*fim galeria.css*/
+
+    /*sobre.css*/
+
+        .resumo__sobre p {
+            font-size: 0.8em;
+        }
+
+        .curriculo {
+            padding: 1.3em;
+        }
+
+        .bt__imprimir {
+            margin: 0;
+        }
+
+    /*fim sobre.css*/
+
+}

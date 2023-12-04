@@ -1,0 +1,157 @@
+@media screen and (max-width: 1024px) {
+
+    /*cabecalho.css*/
+
+        .cabecalho {
+            padding: 0 0 0 20px;
+            opacity: 100%;
+            position: relative;
+        }
+
+        .cabecalho__nome2 {
+            display: none;
+        }
+
+        .cabecalho__logo {
+            width: 40px;
+            height: 40px;
+        }
+
+        .cabecalho__nav {
+            display: none;
+        }
+
+        .menu__mobile {
+            display: flex;
+        }
+
+    /*fim cabecalho.css*/
+
+    /*pagina-nav.css*/
+
+        .pagina__nav a {
+            font-size: 2vw;
+        }
+
+    /*fim pagina-nav.css*/
+
+    /*galeria.css*/
+
+        .bloco__galeria {
+            flex-direction: column;
+            width: 95%;
+        }
+        
+        .bloco__descricao {
+            width: 100%;
+        }
+        
+        .bloco__descricao h2 {
+            font-size: 1.5em;
+        }
+
+        .bloco__descricao p {
+            font-size: 1em;
+        }
+
+        .bloco__visualizacao {
+            width: 100%;
+            flex-direction: column;
+        }
+        
+        .bloco__visualizacao li {
+            flex-direction: row;
+            width: 100%;
+        }
+
+    /*fim galeria.css*/
+
+    /*sobre.css*/
+
+        .bloco__sobre {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .resumo__sobre * {
+            margin: 10px 0;
+        }
+
+        .resumo__sobre {
+            width: 90%;
+            height: auto;
+        }
+
+        .bt__ver__curriculum {
+            width: 100%;
+            margin-top: 40px;
+        }
+    
+        .redes__sobre {
+            margin-top: 30px;
+            width: 90%;   
+            height: auto;
+        }
+
+        .redes__sociais {
+            width: 100%;
+        }
+
+        .redes__sociais a {
+            width: auto;
+            margin: 0;
+            border: none;
+        }
+
+        .botoes__redes__sociais {
+            width: 80%;
+        }
+
+        .curriculo {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .conteudo {
+            flex-direction: column;
+        }
+
+        .subconteudo {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .habilidades {
+            flex-direction: column;
+        }
+
+        .bt__imprimir {
+            width: 100%;
+        }
+
+        .insta {
+            background-image: linear-gradient(to right, #ff8400, #ff008f);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .linkedin {
+            background-image: linear-gradient(to right, #3668ff, #005ae0);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .github {
+            background-image: linear-gradient(to right, #81007d, #070058);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+
+    /*fim sobre.css*/
+    
+}    
