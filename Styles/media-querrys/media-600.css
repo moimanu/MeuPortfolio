@@ -71,8 +71,22 @@
 
     /*sobre.css*/
 
+        .resumo__sobre {
+            padding: 1.3em;
+        }
+
         .resumo__sobre p {
             font-size: 0.8em;
+        }
+
+        .redes__sociais {
+            flex-direction: column;
+        }
+
+        .redes__sociais a {
+            width: auto;
+            margin: 0;
+            border: none;
         }
 
         .curriculo {

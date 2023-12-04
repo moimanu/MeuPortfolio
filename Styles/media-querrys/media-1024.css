@@ -75,7 +75,7 @@
             margin: 20px 0;
         }
 
-        .resumo__sobre * {
+        .resumo__sobre p {
             margin: 10px 0;
         }
 
@@ -96,17 +96,40 @@
         }
 
         .redes__sociais {
+            display: flex;
+            flex-direction: row;
             width: 100%;
         }
 
         .redes__sociais a {
-            width: auto;
+            width: 33.33%;
             margin: 0;
             border: none;
         }
 
         .botoes__redes__sociais {
             width: 80%;
+        }
+
+        .insta {
+            background-image: linear-gradient(to right, #ff8400, #ff008f);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .linkedin {
+            background-image: linear-gradient(to right, #3668ff, #005ae0);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .github {
+            background-image: linear-gradient(to right, #81007d, #070058);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
         }
 
         .curriculo {
@@ -129,27 +152,6 @@
 
         .bt__imprimir {
             width: 100%;
-        }
-
-        .insta {
-            background-image: linear-gradient(to right, #ff8400, #ff008f);
-            border-color: var(--branco);
-            color: var(--branco);
-            font-weight: bold;
-        }
-    
-        .linkedin {
-            background-image: linear-gradient(to right, #3668ff, #005ae0);
-            border-color: var(--branco);
-            color: var(--branco);
-            font-weight: bold;
-        }
-    
-        .github {
-            background-image: linear-gradient(to right, #81007d, #070058);
-            border-color: var(--branco);
-            color: var(--branco);
-            font-weight: bold;
         }
 
     /*fim sobre.css*/

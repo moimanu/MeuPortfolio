@@ -113,12 +113,13 @@
         .bt__abrir__fechar {
             display: none;
             width: 90%;
-            height: 30px;
+            height: 40px;
             background-color: var(--cinza-principal);
             border-radius: 10px;
             justify-content: center;
             align-items: center;
             margin: 20px 0;
+            transition: 0.5s;
         }
 
         .icon__bt__galeria {
@@ -131,7 +132,6 @@
         .bt__voltar__galeria {
             display: flex;
             justify-content: center;
-            font-weight: bold;
         }
 
         .bt__voltar__galeria a {
