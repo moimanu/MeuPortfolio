@@ -1,5 +1,13 @@
 @media screen and (max-width: 600px) {
 
+    /*cabecalho.css*/
+
+        .cabecalho__ancora h1{
+            font-size: 15px;
+        }
+
+    /*fim cabecalho.css*/
+
     /*pagina-nav.css*/
 
         .pagina__nav {
