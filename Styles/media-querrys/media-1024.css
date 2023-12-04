@@ -47,11 +47,11 @@
         }
         
         .bloco__descricao h2 {
-            font-size: 2em;
+            font-size: 1.5em;
         }
 
         .bloco__descricao p {
-            font-size: 1.2em;
+            font-size: 1em;
         }
 
         .bloco__visualizacao {
@@ -123,6 +123,31 @@
 
         .bt__imprimir {
             width: 100%;
+        }
+
+        .redes__sociais a {
+            border-radius: 35px;
+        }
+
+        .insta {
+            background-image: linear-gradient(to right, #ff8400, #ff008f);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .linkedin {
+            background-image: linear-gradient(to right, #3668ff, #005ae0);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
+        }
+    
+        .github {
+            background-image: linear-gradient(to right, #81007d, #070058);
+            border-color: var(--branco);
+            color: var(--branco);
+            font-weight: bold;
         }
 
     /*fim sobre.css*/
