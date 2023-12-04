@@ -148,7 +148,7 @@
 
     .subtitulo {
         padding-bottom: 0.5em;
-        border-bottom: solid 3px var(--cinza-secundário);
+        border-bottom: solid 3px var(--cinza-terciario);
     }
 
     .conteudo {

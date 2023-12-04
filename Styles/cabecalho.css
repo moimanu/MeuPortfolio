@@ -132,6 +132,7 @@
             text-align: center;
             text-decoration: none;
             color: var(--branco);
+            border-right: 2px solid var(--cinza-secundario);
         }
 
         .nav__mobile img {
