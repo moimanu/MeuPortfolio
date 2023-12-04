@@ -55,6 +55,10 @@
             display: flex;
         }
 
+        .nav__mobile p {
+            display: none;
+        }
+
     /*fim galeria.css*/
 
 }
