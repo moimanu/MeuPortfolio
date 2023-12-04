@@ -30,6 +30,10 @@
             margin-bottom: 40px;
         }
 
+        .bloco__galeria {
+            align-items: center;
+        }
+
         .bloco__visualizacao {
             display: none;
             flex-direction: row;
@@ -47,12 +51,16 @@
             display: flex;
         }
 
-        .bloco__botao__galeria {
+        .bt__voltar__galeria {
             display: flex;
         }
 
         .input__abrir__fechar:checked ~ .bloco__visualizacao {
             display: flex;
+        }
+
+        .input__abrir__fechar:checked ~ .bt__abrir__fechar {
+            background-color: var(--vermelho-alerta);
         }
 
         .nav__mobile p {
@@ -61,8 +69,20 @@
 
     /*fim galeria.css*/
 
-    .resumo__sobre p {
-        font-size: 0.8em;
-    }
+    /*sobre.css*/
+
+        .resumo__sobre p {
+            font-size: 0.8em;
+        }
+
+        .curriculo {
+            padding: 1.3em;
+        }
+
+        .bt__imprimir {
+            margin: 0;
+        }
+
+    /*fim sobre.css*/
 
 }

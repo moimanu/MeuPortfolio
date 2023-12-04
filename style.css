@@ -15,8 +15,9 @@
     --cinza-principal: #121212;
     --cinza-secundário: #dddddd;
     --cinza-links: #ababab;
-    --preto-sombra: #0000000f;
+    --preto-sombra: #0000001f;
     --branco: #ffffff;   
+    --vermelho-alerta: #ff4545;
 }
 
 * {
