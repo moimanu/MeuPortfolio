@@ -99,6 +99,11 @@
             width: 100%;
         }
 
+        .redes__sociais a {
+            width: auto;
+            margin: 2px;
+        }
+
         .botoes__redes__sociais {
             width: 80%;
         }
@@ -123,10 +128,6 @@
 
         .bt__imprimir {
             width: 100%;
-        }
-
-        .redes__sociais a {
-            border-radius: 35px;
         }
 
         .insta {

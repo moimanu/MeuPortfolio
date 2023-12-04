@@ -61,4 +61,8 @@
 
     /*fim galeria.css*/
 
+    .resumo__sobre p {
+        font-size: 0.8em;
+    }
+
 }
