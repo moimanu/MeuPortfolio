@@ -19,7 +19,8 @@
         box-shadow: 1px 1px 15px 1px var(--preto-sombra);
         padding: 30px;
         box-sizing: border-box;
-        font-size: 1.2em
+        font-size: 1.2em;
+        text-align: justify;
     }
 
     .bt__ver__curriculum {
