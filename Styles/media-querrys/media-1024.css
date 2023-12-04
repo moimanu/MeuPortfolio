@@ -101,6 +101,7 @@
 
         .redes__sociais a {
             width: auto;
+            margin: 0;
         }
 
         .botoes__redes__sociais {
