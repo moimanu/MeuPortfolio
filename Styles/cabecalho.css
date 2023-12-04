@@ -35,7 +35,7 @@
     }
 
     .cabecalho__logo img:hover {
-        filter: invert(1);
+        opacity: 80%;
     }
 
     .cabecalho__ancora h1{
