@@ -16,7 +16,7 @@
         width: 600px;
         height: 500px;
         background-color: var(--branco);
-        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        box-shadow: var(--preto-sombra);
         padding: 30px;
         box-sizing: border-box;
         font-size: 1.2em;
@@ -63,7 +63,7 @@
         width: 350px;
         height: 500px;
         background-color: var(--branco);
-        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        box-shadow: var(--preto-sombra);
     }
 
     .cabecalho__redes__sobre {
@@ -127,7 +127,7 @@
         padding: 2em 3.5em;
         box-sizing: border-box;
         background-color: var(--branco);
-        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        box-shadow: var(--preto-sombra);
     }
 
     .curriculo a {

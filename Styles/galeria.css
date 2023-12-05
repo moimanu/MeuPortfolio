@@ -9,7 +9,7 @@
         flex-direction: row;
         width: 80%;
         margin: auto;
-        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        box-shadow: var(--preto-sombra);
         background-color: var(--branco);
     }
 
@@ -131,7 +131,7 @@
         }
 
         .bt__voltar__galeria {
-            display: flex;
+            display: none;
             justify-content: center;
         }
 

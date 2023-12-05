@@ -51,30 +51,7 @@
             flex-direction: column;
         }
         
-        .sub__bloco__visualizacao {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        .sub__bloco__visualizacao img {
-            border-radius: 10px;
-        }
-
-        .sub__bloco__visualizacao:hover {
-            transform: scale(1.03);
-        }
-
-        .sub__bloco__visualizacao:hover img {
-            width: calc(100% + 20px);
-            height: calc(100% + 20px);
-        }
-
-        .capa__preta {
-            border-radius: 10px;
-        }
+        
 
         .bt__abrir__fechar {
             display: flex;
@@ -108,6 +85,11 @@
             font-size: 0.8em;
         }
 
+        .bt__ver__curriculum {
+            width: 100%;
+            margin-top: 40px;
+        }
+
         .redes__sociais {
             flex-direction: column;
         }
@@ -127,5 +109,17 @@
         }
 
     /*fim sobre.css*/
+
+    /*portifolio.css*/
+
+        .cabecalho__card {
+            padding: 20px;
+        }
+
+        .cabecalho__card p {
+            font-size: 3.5vw;
+        }
+
+    /*fim portifolio.css*/
 
 }

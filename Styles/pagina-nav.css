@@ -16,7 +16,7 @@
         margin: 0 15px;
         background-color: var(--branco);
         color: var(--cinza-principal);
-        box-shadow: 1px 1px 15px 1px var(--preto-sombra);
+        box-shadow: var(--preto-sombra);
         border-radius: 30px;
         text-decoration: none;
         font-weight: bold;

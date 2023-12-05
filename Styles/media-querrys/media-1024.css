@@ -36,7 +36,7 @@
     /*fim pagina-nav.css*/
 
     /*galeria.css*/
-
+    
         .bloco__galeria {
             flex-direction: column;
             width: 95%;
@@ -63,6 +63,31 @@
             flex-direction: row;
             width: 100%;
         }
+        
+        .sub__bloco__visualizacao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .sub__bloco__visualizacao img {
+            border-radius: 10px;
+        }
+
+        .sub__bloco__visualizacao:hover {
+            transform: scale(1.03);
+        }
+
+        .sub__bloco__visualizacao:hover img {
+            width: calc(100% + 20px);
+            height: calc(100% + 20px);
+        }
+
+        .capa__preta {
+            border-radius: 10px;
+        }
 
     /*fim galeria.css*/
 
@@ -85,8 +110,7 @@
         }
 
         .bt__ver__curriculum {
-            width: 100%;
-            margin-top: 40px;
+            margin: 40px 0 0 auto;
         }
     
         .redes__sobre {
@@ -156,4 +180,32 @@
 
     /*fim sobre.css*/
     
+
+    /*portifolio.css*/
+
+        .portifolio {
+            flex-direction: column;
+            width: 95%;
+        }
+
+        .card__portifolio {
+            width: auto;
+            margin: 0 0 60px 0;
+        }
+
+        .cabecalho__card p {
+            font-size: 2vw;
+        }
+
+        .card__portifolio:hover {
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+
+        .capa__card {
+            font-size: 4vw;
+        }
+        
+    /*fim portifolio.css*/
+
 }    

@@ -4,6 +4,7 @@
 @import url(Styles/galeria.css);
 @import url(Styles/sobre.css);
 @import url(Styles/espacador.css);
+@import url(Styles/portifolio.css);
 @import url(Styles/media-querrys/media-1024.css);
 @import url(Styles/media-querrys/media-600.css);
 
@@ -16,7 +17,7 @@
     --cinza-secundario: #1f1f1f;
     --cinza-terciario: #dddddd;
     --cinza-links: #ababab;
-    --preto-sombra: #0000001f;
+    --preto-sombra: 1px 1px 15px 1px #0000001f;
     --branco: #ffffff;   
     --vermelho-alerta: #ff4545;
 }
