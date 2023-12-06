@@ -29,11 +29,20 @@
 
     /*pagina-nav.css*/
 
-        .pagina__nav a {
-            font-size: 2vw;
+        .pagina__nav {
+            display: none;
         }
 
     /*fim pagina-nav.css*/
+
+        /*espacador.css*/
+
+        .espacador {
+            display: none;
+        }
+
+    /*fim espacador.css*/
+
 
     /*galeria.css*/
     
