@@ -90,6 +90,11 @@
             margin-top: 40px;
         }
 
+        .bt__ver__curriculum__mobile {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
         .redes__sociais {
             flex-direction: column;
         }

@@ -55,6 +55,19 @@
         display: none;
     }
 
+    .bt__ver__curriculum__mobile {
+        display: none;
+        width: 313.2px;
+        justify-content: center;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
     .redes__sobre {
         display: flex;
         flex-direction: column;
