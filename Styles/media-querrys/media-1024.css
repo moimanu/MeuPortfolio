@@ -213,4 +213,12 @@
 
     /*fim portifolio.css*/
 
+    /*menu-susp.css*/
+
+        .menu__suspenso {
+            display: flex;
+        }
+
+    /*fim menu-susp.css*/
+
 }    
