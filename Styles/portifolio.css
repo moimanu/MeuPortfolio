@@ -29,10 +29,6 @@
         padding-bottom: 30px;
     }
 
-    .cabecalho__card p {
-        font-size: 1vw;
-    }
-
     .conteudo__card {
         display: flex;
         width: 100%;

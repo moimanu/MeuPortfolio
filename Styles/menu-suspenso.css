@@ -6,13 +6,14 @@
         width: 80%;
         height: 60px;
         border-radius: 20px;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(3px);
         display: none;
+        border: solid 1px #3a3a3a;
     }
 
     .opacidadefundo__menu__suspenso {
         background-color: black;
-        opacity: 70%;
+        opacity: 85%;
         width: 100%;
         height: 100%;
         border-radius: 20px;
