@@ -8,7 +8,7 @@
         border-radius: 20px;
         backdrop-filter: blur(3px);
         display: none;
-        border: solid 1px #3a3a3a;
+        box-shadow: var(--preto-sombra);
     }
 
     .opacidadefundo__menu__suspenso {
