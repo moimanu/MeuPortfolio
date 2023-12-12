@@ -36,7 +36,7 @@
     /*fim apresentacao.css*/
 
     /*galeria.css*/
-    
+
         .bloco__galeria {
             flex-direction: column;
             margin: 0px auto 60px;
@@ -113,6 +113,10 @@
             border-radius: 0px;
         }
 
+        .ultima__galeria {
+            margin-bottom: 10px;
+        }
+
     /*fim galeria.css*/
 
     /*sobre.css*/
@@ -143,7 +147,7 @@
         }
     
         .redes__sobre {
-            margin: 30px 0;
+            margin-top: 30px;
             width: 90%;   
             height: auto;
         }
@@ -215,6 +219,7 @@
         .portifolio {
             flex-direction: column;
             width: 95%;
+            margin-bottom: -25px;
         }
 
         .card__portifolio {
