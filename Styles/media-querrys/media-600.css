@@ -18,10 +18,6 @@
 
     /*galeria.css*/
 
-        .galeria {
-            margin-bottom: 40px;
-        }
-
         .bloco__galeria {
             align-items: center;
         }
@@ -35,8 +31,6 @@
             flex-direction: column;
         }
         
-        
-
         .bt__abrir__fechar {
             display: flex;
         }
@@ -106,7 +100,7 @@
         }
 
         .cabecalho__card p {
-            font-size: 3.5vw;
+            font-size: 1em;
         }
 
     /*fim portifolio.css*/

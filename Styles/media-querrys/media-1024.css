@@ -27,28 +27,19 @@
 
     /*fim cabecalho.css*/
 
-    /*pagina-nav.css*/
-
-        .pagina__nav {
-            display: none;
+    /*apresentacao.css*/
+        
+        .apresentacao {
+            margin: 0;
         }
-
-    /*fim pagina-nav.css*/
-
-        /*espacador.css*/
-
-        .espacador {
-            display: none;
-        }
-
-    /*fim espacador.css*/
-
+    
+    /*fim apresentacao.css*/
 
     /*galeria.css*/
     
         .bloco__galeria {
             flex-direction: column;
-            margin: 0 auto;
+            margin: 0px auto 60px;
             width: 95%;
         }
         
@@ -95,6 +86,31 @@
             bottom: auto;
             width: calc(100% - 20px);
             height: calc(100% - 20px);
+        }
+
+        .bloco__visualizacao2 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 0;
+        }
+
+        .bloco__visualizacao2 li {
+            display: flex;
+            flex-direction: row;
+            width: 33.33%;
+            list-style: none;
+        }
+
+        .sub__bloco__visualizacao2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .sub__bloco__visualizacao2 img {
+            border-radius: 0px;
         }
 
     /*fim galeria.css*/
@@ -228,5 +244,10 @@
         }
 
     /*fim menu-susp.css*/
-
+    
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
 }    
+
