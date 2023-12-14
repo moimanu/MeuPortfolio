@@ -2,13 +2,15 @@
 
     .menu__suspenso {
         position: sticky;
-        bottom: 15px;
+        top: 85%;
         width: 80%;
         height: 60px;
         border-radius: 20px;
         backdrop-filter: blur(3px);
         display: none;
         box-shadow: var(--preto-sombra);
+        z-index: 20;
+        margin: 10px 0;
     }
 
     .opacidadefundo__menu__suspenso {

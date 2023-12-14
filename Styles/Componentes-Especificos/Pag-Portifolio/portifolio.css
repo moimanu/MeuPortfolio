@@ -4,6 +4,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         width: 80%;
         height: fit-content;
         margin-bottom: 40px;
@@ -82,3 +83,7 @@
     }
 
 /*FIM PORTIFOLIO*/
+
+#atv__acdm__id {
+    margin-bottom: 0px;
+}

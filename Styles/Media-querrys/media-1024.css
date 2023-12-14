@@ -91,6 +91,10 @@
     /*fim galeria.css*/
 
     /*galeria2.css*/
+
+        .galeria2 {
+            margin-bottom: 60px;
+        }
     
         .bloco__galeria2 {
             flex-direction: column;
@@ -264,7 +268,7 @@
 
         .card__portifolio {
             width: auto;
-            margin: 0 0 60px 0;
+            margin: 0 0 80px 0;
         }
 
         .cabecalho__card p {
