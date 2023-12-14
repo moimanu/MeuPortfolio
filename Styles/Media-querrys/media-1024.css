@@ -88,6 +88,28 @@
             height: calc(100% - 20px);
         }
 
+    /*fim galeria.css*/
+
+    /*galeria2.css*/
+    
+        .bloco__galeria2 {
+            flex-direction: column;
+            margin: 0px auto 0px;
+            width: 95%;
+        }
+
+        .bloco__descricao2 {
+            width: 100%;
+        }
+
+        .bloco__descricao2 h2 {
+            font-size: 1.5em;
+        }
+
+        .bloco__descricao a {
+            font-size: 1em;
+        }
+
         .bloco__visualizacao2 {
             display: flex;
             flex-direction: row;
@@ -113,11 +135,30 @@
             border-radius: 0px;
         }
 
-        .ultima__galeria {
-            margin-bottom: 10px;
+        .bloco__legenda__galeria2 {
+            width: 95%;
         }
 
-    /*fim galeria.css*/
+        .bloco__legenda__galeria2 {
+            text-align: right;
+        }
+
+    /*fim galeria2.css*/
+
+    /*galeria3.css*/
+    
+        .bloco__galeria3 {
+            flex-direction: column;
+            margin: 0px auto;
+            width: 95%;
+        }
+
+        .bloco__descricao3 {
+            width: 100%;
+        }
+
+    /*fim galeria3.css*/
+
 
     /*sobre.css*/
 
@@ -191,7 +232,7 @@
 
         .curriculo {
             width: 90%;
-            margin: 0px auto 20px;
+            margin: 0px auto;
         }
 
         .conteudo {
@@ -212,14 +253,13 @@
         }
 
     /*fim sobre.css*/
-    
 
     /*portifolio.css*/
 
         .portifolio {
             flex-direction: column;
             width: 95%;
-            margin-bottom: -35px;
+            margin-bottom: -30px;
         }
 
         .card__portifolio {
@@ -259,5 +299,4 @@
     
     /*rodape*/
 
-}    
-
+}

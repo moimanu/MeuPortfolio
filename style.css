@@ -3,6 +3,8 @@
 @import url(Styles/Componentes-Base/rodape.css);
 
 @import url(Styles/Componentes-Especificos/Pag-Home/galeria.css);
+@import url(Styles/Componentes-Especificos/Pag-Home/galeria2.css);
+@import url(Styles/Componentes-Especificos/Pag-Home/galeria3.css);
 @import url(Styles/Componentes-Especificos/Pag-Portifolio/menu-suspenso.css);
 @import url(Styles/Componentes-Especificos/Pag-Portifolio/portifolio.css);
 @import url(Styles/Componentes-Especificos/Pag-Portifolio/espaco-portifolio.css);
@@ -21,6 +23,7 @@
     --cinza-secundario: #1f1f1f;
     --cinza-terciario: #dddddd;
     --cinza-links: #ababab;
+    --cinza-texto-fundo-preto: #c2c2c2;
     --preto-sombra: 1px 1px 15px 1px #0000001f;
     --branco: #ffffff;   
     --vermelho-alerta: #ff4545;
