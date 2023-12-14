@@ -1,16 +1,16 @@
-@import url(Styles/cabecalho.css);
-@import url(Styles/apresentacao.css);
-@import url(Styles/pagina-nav.css);
-@import url(Styles/galeria.css);
-@import url(Styles/sobre.css);
-@import url(Styles/espacador.css);
-@import url(Styles/portifolio.css);
-@import url(Styles/convite-portifolio.css);
-@import url(Styles/menu-suspenso.css);
-@import url(Styles/media-querrys/media-1024.css);
-@import url(Styles/media-querrys/media-600.css);
-@import url(Styles/rodape.css);
-@import url(Styles/espaco-portifolio.css);
+@import url(Styles/Componentes-Base/cabecalho.css);
+@import url(Styles/Componentes-Base/apresentacao.css);
+@import url(Styles/Componentes-Base/rodape.css);
+
+@import url(Styles/Componentes-Especificos/Pag-Home/galeria.css);
+@import url(Styles/Componentes-Especificos/Pag-Portifolio/menu-suspenso.css);
+@import url(Styles/Componentes-Especificos/Pag-Portifolio/portifolio.css);
+@import url(Styles/Componentes-Especificos/Pag-Portifolio/espaco-portifolio.css);
+@import url(Styles/Componentes-Especificos/Pag-Sobre/bloco-sobre.css);
+@import url(Styles/Componentes-Especificos/Pag-Sobre/curriculo.css);
+
+@import url(Styles/Media-querrys/media-1024.css);
+@import url(Styles/Media-querrys/media-600.css);
 
 :root {
     /*CONFIGURAÇÕES*/
