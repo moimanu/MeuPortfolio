@@ -1,0 +1,125 @@
+/*SOBRE*/
+
+    .bloco__sobre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 30px 0 60px;
+        
+    }
+
+    .resumo__sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 600px;
+        height: 500px;
+        background-color: var(--branco);
+        box-shadow: var(--preto-sombra);
+        padding: 30px;
+        box-sizing: border-box;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+
+    .bt__ver__curriculum {
+        display: flex;
+        width: 313.2px;
+        justify-content: center;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .bt__ver__curriculum:hover {
+        -ms-transform: scale(1.3);
+        transform: scale(1.05);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .desabilitar__habilitar:checked ~ .curriculo {
+        display: block;
+    }
+
+    .desabilitar__habilitar:checked ~ .bloco__sobre {
+        display: none;
+    }
+
+    .desabilitar__habilitar {
+        display: none;
+    }
+
+    .bt__ver__curriculum__mobile {
+        display: none;
+        width: 313.2px;
+        justify-content: center;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .redes__sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        height: 500px;
+        background-color: var(--branco);
+        box-shadow: var(--preto-sombra);
+    }
+
+    .cabecalho__redes__sobre {
+        background-color: var(--cinza-principal);
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        color: var(--branco);
+    }
+
+    .botoes__redes__sociais {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 230px;
+        margin: 45px auto;
+        text-align: center;
+        padding: 15px;
+        border: 2px solid var(--cinza-principal);
+        color: var(--cinza-principal);
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .insta:hover {
+        background-image: linear-gradient(to right, #ff8400, #ff008f);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+    .linkedin:hover {
+        background-image: linear-gradient(to right, #3668ff, #005ae0);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+    .github:hover {
+        background-image: linear-gradient(to right, #81007d, #070058);
+        border-color: var(--branco);
+        color: var(--branco);
+        font-weight: bold;
+    }
+
+/*FIM SOBRE*/

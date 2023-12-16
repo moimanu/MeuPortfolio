@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px) {
+
+    /*cabecalho.css*/
+
+        .cabecalho__ancora h1{
+            font-size: 15px;
+        }
+
+    /*fim cabecalho.css*/
+
+    /*apresentacao.css*/
+        
+        .apresentacao h2 {
+            font-size: 1.2em;
+        }
+        
+    /*fim apresentacao.css*/
+
+    /*galeria.css*/
+
+        .bloco__galeria {
+            align-items: center;
+        }
+
+        .bloco__visualizacao {
+            display: none;
+            flex-direction: row;
+        }
+
+        .bloco__visualizacao li {
+            flex-direction: column;
+        }
+        
+        .bt__abrir__fechar {
+            display: flex;
+        }
+
+        .bt__voltar__galeria {
+            display: flex;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .input__abrir__fechar:checked ~ .bloco__visualizacao {
+            display: flex;
+        }
+
+        .input__abrir__fechar:checked ~ .bt__abrir__fechar {
+            background-color: var(--vermelho-alerta);
+        }
+
+        .nav__mobile p {
+            display: none;
+        }
+
+    /*fim galeria.css*/
+
+    /*sobre.css*/
+
+        .resumo__sobre {
+            padding: 1.3em;
+        }
+
+        .resumo__sobre p {
+            font-size: 0.8em;
+        }
+
+        .bt__ver__curriculum {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .bt__ver__curriculum__mobile {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .redes__sociais {
+            flex-direction: column;
+        }
+
+        .redes__sociais a {
+            width: auto;
+            margin: 0;
+            border: none;
+        }
+
+        .curriculo {
+            padding: 1.3em;
+        }
+
+        .bt__imprimir {
+            margin: 0;
+        }
+
+        .insta {
+            border-radius: 0;
+        }
+
+        .github {
+            border-radius: 0 0 10px 10px;
+        }
+
+    /*fim sobre.css*/
+
+    /*portifolio.css*/
+
+        .cabecalho__card {
+            padding: 20px;
+        }
+
+        .cabecalho__card p {
+            font-size: 0.9em;
+        }
+
+    /*fim portifolio.css*/
+
+}
