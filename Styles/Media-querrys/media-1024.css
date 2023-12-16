@@ -39,12 +39,14 @@
 
         .bloco__galeria {
             flex-direction: column;
-            margin: 0px auto 60px;
-            width: 95%;
+            margin: 0px auto 40px;
+            width: 90%;
+            border-radius: 10px;
         }
         
         .bloco__descricao {
             width: 100%;
+            border-radius: 10px 10px 0 0;
         }
         
         .bloco__descricao h2 {
@@ -93,17 +95,20 @@
     /*galeria2.css*/
 
         .galeria2 {
-            margin-bottom: 60px;
+            margin-bottom: 40px;
+            border-radius: 10px;
         }
     
         .bloco__galeria2 {
             flex-direction: column;
             margin: 0px auto 0px;
-            width: 95%;
+            width: 90%;
+            border-radius: 10px 10px 0 0 ;
         }
 
         .bloco__descricao2 {
             width: 100%;
+            border-radius: 10px 10px 0 0 ;
         }
 
         .bloco__descricao2 h2 {
@@ -140,7 +145,8 @@
         }
 
         .bloco__legenda__galeria2 {
-            width: 95%;
+            width: 90%;
+            border-radius: 0 0 10px 10px;
         }
 
         .bloco__legenda__galeria2 {
@@ -154,15 +160,15 @@
         .bloco__galeria3 {
             flex-direction: column;
             margin: 0px auto;
-            width: 95%;
+            width: 90%;
+            border-radius: 10px;
         }
 
-        .bloco__descricao3 {
-            width: 100%;
+        .bloco__texto {
+            border-radius: 10px;
         }
 
     /*fim galeria3.css*/
-
 
     /*sobre.css*/
 
@@ -180,6 +186,7 @@
         .resumo__sobre {
             width: 90%;
             height: auto;
+            border-radius: 10px;
         }
 
         .bt__ver__curriculum {
@@ -192,9 +199,14 @@
         }
     
         .redes__sobre {
-            margin-top: 30px;
+            margin-top: 40px;
             width: 90%;   
             height: auto;
+            border-radius: 10px;
+        }
+
+        .cabecalho__redes__sobre {
+            border-radius: 10px 10px 0 0;
         }
 
         .redes__sociais {
@@ -218,6 +230,7 @@
             border-color: var(--branco);
             color: var(--branco);
             font-weight: bold;
+            border-radius: 0 0 0 10px;
         }
     
         .linkedin {
@@ -232,11 +245,13 @@
             border-color: var(--branco);
             color: var(--branco);
             font-weight: bold;
+            border-radius: 0 0 10px 0;
         }
 
         .curriculo {
             width: 90%;
             margin: 0px auto;
+            border-radius: 10px;
         }
 
         .conteudo {
@@ -262,13 +277,18 @@
 
         .portifolio {
             flex-direction: column;
-            width: 95%;
-            margin-bottom: -30px;
+            width: 90%;
+            margin-bottom: 0px;
         }
 
         .card__portifolio {
             width: auto;
             margin: 0 0 80px 0;
+            border-radius: 10px;
+        }
+
+        .cabecalho__card {
+            border-radius: 10px 10px 0 0;
         }
 
         .cabecalho__card p {
@@ -280,8 +300,17 @@
             transform: scale(1);
         }
 
+        .conteudo__card img {
+            border-radius: 0 0 10px 10px;
+        }
+
         .capa__card {
             font-size: 1em;
+            border-radius: 10px;
+        }
+
+        #atv__acdm__id {
+            margin-bottom: 0px;
         }
 
     /*fim portifolio.css*/

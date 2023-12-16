@@ -91,6 +91,14 @@
             margin: 0;
         }
 
+        .insta {
+            border-radius: 0;
+        }
+
+        .github {
+            border-radius: 0 0 10px 10px;
+        }
+
     /*fim sobre.css*/
 
     /*portifolio.css*/
@@ -100,7 +108,7 @@
         }
 
         .cabecalho__card p {
-            font-size: 1em;
+            font-size: 0.9em;
         }
 
     /*fim portifolio.css*/

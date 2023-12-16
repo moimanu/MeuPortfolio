@@ -10,7 +10,7 @@
         display: none;
         box-shadow: var(--preto-sombra);
         z-index: 20;
-        margin: 10px 0;
+        margin-top: 20px;
     }
 
     .opacidadefundo__menu__suspenso {

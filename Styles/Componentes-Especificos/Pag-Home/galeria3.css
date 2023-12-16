@@ -19,16 +19,14 @@
             width: 100%;
             padding: 26px;
             box-sizing: border-box;
-            background-color: var(--cinza-secundario);
-            color: var(--branco);
+            background-color: var(--branco);
+            color: var(--cinza-principal);
             text-align: right;
             transition: 0.6s;
-            color: var(--cinza-terciario);
-
         }
 
         .bloco__texto:hover {
-            background-color: rgb(201, 39, 98);
+            background-color: rgb(133, 0, 200);
             color: var(--branco);
             transition: 0.6s;
         }
@@ -52,7 +50,7 @@
             font-size: 1em;
             text-wrap: wrap;
             text-decoration: none;
-            color: var(--cinza-terciario);
+            color: var(--cinza-principal);
         }
 
     /*FIM BLOCO TEXTO*/
