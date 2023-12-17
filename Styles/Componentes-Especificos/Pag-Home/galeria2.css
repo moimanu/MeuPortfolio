@@ -74,12 +74,10 @@
         width: 80%;
         background-color: var(--cinza-secundario);
         color: var(--cinza-terciario);
-        padding: 20px;
+        padding: 40px 26px;
         box-sizing: border-box;
-        text-align: center;
+        text-align: end;
         box-shadow: var(--preto-sombra);
     }
 
 /*FIM GALERIA2*/
-
-
