@@ -147,10 +147,7 @@
         .bloco__legenda__galeria2 {
             width: 90%;
             border-radius: 0 0 10px 10px;
-        }
-
-        .bloco__legenda__galeria2 {
-            text-align: right;
+            padding: 26px;
         }
 
     /*fim galeria2.css*/
@@ -166,6 +163,7 @@
 
         .bloco__texto {
             border-radius: 10px;
+            padding: 26px;
         }
 
     /*fim galeria3.css*/
@@ -238,6 +236,7 @@
             border-color: var(--branco);
             color: var(--branco);
             font-weight: bold;
+            border-radius: 0;
         }
     
         .github {
@@ -279,6 +278,7 @@
             flex-direction: column;
             width: 90%;
             margin-bottom: 0px;
+            align-items: center;
         }
 
         .card__portifolio {

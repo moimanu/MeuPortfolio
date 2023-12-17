@@ -79,8 +79,8 @@
         }
 
         .redes__sociais a {
-            width: auto;
-            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
             border: none;
         }
 
