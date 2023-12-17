@@ -60,6 +60,10 @@
             padding: 1.3em;
         }
 
+        .resumo__sobre p {
+            font-size: 0.8em;
+        }
+
         .bt__ver__curriculum {
             width: 100%;
             margin-top: 40px;
