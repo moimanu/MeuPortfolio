@@ -57,12 +57,7 @@
     /*sobre.css*/
 
         .resumo__sobre {
-            font-size: 1em;
             padding: 1.3em;
-        }
-
-        .resumo__sobre p {
-            font-size: 0.8em;
         }
 
         .bt__ver__curriculum {
