@@ -51,19 +51,15 @@
 
     #bt__certificado {
         display: flex;
-        background-color: var(--cinza-links);
         height: fit-content;
+        background-color: var(--cinza-principal);
         border-radius: 10px;
         padding: 5px;
-        margin: 0 0 0 8px;
+        margin: 0 0 0 20px;
     }
 
     #bt__certificado:hover {
-        background-color: var(--cinza-principal);
-    }
-
-    #bt__certificado:hover img {
-        filter: none;
+        filter: opacity(70%);
     }
 
     .conteudo img {
