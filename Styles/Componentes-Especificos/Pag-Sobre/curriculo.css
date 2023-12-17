@@ -49,12 +49,40 @@
         box-sizing: border-box;
     }
 
+    #bt__certificado {
+        display: flex;
+        background-color: var(--cinza-links);
+        height: fit-content;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0 0 0 8px;
+    }
+
+    #bt__certificado:hover {
+        background-color: var(--cinza-principal);
+    }
+
+    #bt__certificado:hover img {
+        filter: none;
+    }
+
+    .conteudo img {
+        width: 30px;
+        height: 30px;
+    }
+
     .referencia {
         margin-bottom: 1em;
     }
 
     .subconteudo {
         width: 50%;
+    }
+
+    .subconteudo__com__certificado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .empresa {
@@ -128,7 +156,11 @@
         padding: 0;
         margin: auto;
         font-family: none;
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+
+    #bt__certificado {
+        display: none;
     }
 
     .bt__imprimir {
