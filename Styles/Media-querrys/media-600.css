@@ -22,6 +22,10 @@
             align-items: center;
         }
 
+        .bloco__descricao p {
+            font-size: 0.8em;
+        }
+
         .bloco__visualizacao {
             display: none;
             flex-direction: row;
@@ -53,6 +57,22 @@
         }
 
     /*fim galeria.css*/
+
+    /*galeria2.css*/
+
+        .bloco__legenda__galeria2 {
+            font-size: 0.8em;
+        }
+
+    /*fim galeria2.css*/
+
+    /*galeria3.css*/
+
+        .bloco__texto p {
+            font-size: 0.8em;
+        }
+
+    /*fim galeria3.css*/
 
     /*sobre.css*/
 
@@ -109,7 +129,7 @@
         }
 
         .cabecalho__card p {
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
 
     /*fim portifolio.css*/
