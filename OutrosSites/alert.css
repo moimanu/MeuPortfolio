@@ -1,0 +1,40 @@
+.alert {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .alert {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        z-index: 100;
+    }
+
+    .fakebody {
+        filter: blur(15px);
+    }
+
+    .box__mensagem__alert {
+        display: flex;
+        border: solid 1px white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+        background-color: rgb(0, 0, 0);
+        opacity: 80%;
+        margin: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .box__mensagem__alert p {
+        color: white;
+    }
+
+}

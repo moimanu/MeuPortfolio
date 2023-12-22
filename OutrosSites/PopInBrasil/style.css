@@ -1,0 +1,365 @@
+@import url(../alert.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+
+    background-color: #32a3ff;
+}
+
+/*NAVEGACAO DO SITE*/
+
+    .cabecalho {
+        background-color: #222;
+        padding: 0px 20px;
+
+        border-radius: 5px;
+    }
+
+    .cabecalho ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-logo {
+        background-color: #222;
+
+        width: 180px;
+        height: 60px;
+
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .caixa-logo {
+        width: 180px;
+
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
+    }
+
+    .container {
+        background-color: #222;
+
+        margin-top: 5px;
+
+        width: 150px;
+        height: 60px;
+
+        position: relative;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .caixa {
+        color: white;
+        font-weight: bold;
+
+        font-size: 20px;
+        font-family: arial;
+
+        width: fit-content;
+        height: fit-content;
+
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
+    }
+
+    .container:hover {
+        background-color: #32a3ff;
+        cursor: pointer;
+    }
+
+    .container:hover .caixa {
+        color: #222;
+    }
+
+/*FIM DA NAVEGACAO DO SITE*/
+
+/*CONTEUDO*/
+
+    .conteudo {
+        display: flex;
+    }
+
+    .texto {
+        margin: 50px 0px 50px 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        border: solid white 2px;
+        border-radius: 5px;
+
+        font-family: arial;
+    }
+
+    .texto h1 {
+        margin: 30px 50px 30px 50px;
+
+        color: white;
+
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .texto p {
+        font-size: 28px;
+        color: white;        
+        margin: 0 50px 0 50px;
+    }
+
+    .botao {
+        margin: 30px 50px;
+
+        background-color: white;
+        font-size: 20px;
+        font-family: arial;
+        text-transform: uppercase;
+        color: #32a3ff;
+        font-weight: bold;
+
+        border: none;
+        border-radius: 5px;
+
+        text-align: center;
+
+        width: 446px;
+        height: 50px;
+
+        transition: 0.3s;
+    }
+
+    .botao:hover {
+        background-color: #ff0f9f; 
+        color: white;
+        cursor: pointer;
+
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .texto p strong {
+        font-weight: bold;
+    }
+
+    .imagem1 img{
+        position: relative;
+        z-index: 10;
+
+        width: 400px;
+        margin: 50px 0 50px 50px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 30px 0px #007fe7;
+        transition: 0.3s;
+    }
+
+    .imagem1 img:hover {
+        transition: 0.3s;
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 1px 1px 30px 0px #007fe700;
+        filter: saturate(0%);
+    }
+
+/*FIM DO CONTEUDO*/
+
+/*CONTEUDO1*/
+
+    .conteudo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 20px 20px 30px 20px;
+
+        width: 100%;
+        height: 180px;
+
+        background-color: white;
+
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .titulo-patrocinio {
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 30px;
+    }
+
+    .titulo-patrocinio h1 {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Arial;
+
+        color: #222;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .patrocinadores {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .patrocinadores img{
+        background-color: #222;
+
+        width: 180px;
+        height: 46.8px;
+
+        margin: auto;
+
+        box-sizing: border-box;
+
+        transition: .3s;
+    }
+
+    .patrocinadores img:hover {
+        transform: scale(1.05);
+        transition: .3s;
+    }
+
+/*FIM DO CONTEUDO1*/
+
+/*NAV2*/
+
+    .fundo-nav2 {
+        height: 86px;
+        position: sticky;
+        top: 0px;
+        background-color: #32a3ff;
+    }
+
+    .nav2 {   
+        padding: 10px 80px;
+
+        background-color: #222;
+
+        border-radius: 5px 5px 0 0;
+        
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
+
+    .lista-nav2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .caixa-nav2 {
+        color: white;
+        text-decoration: none;
+        font-family: arial;
+        font-weight: bold;
+    }
+
+    .lista-nav2 a {
+        color: white;
+        text-decoration: none;
+        font-family: arial;
+        font-weight: bold;
+    }
+
+    .lista-nav2 a:hover {
+        text-decoration: underline;
+    }
+
+/*FIM DA NAV2*/
+
+/*CONTEUDO2*/
+
+    .conteudo2  {
+        display: flex;
+        flex-direction: column;  
+
+        width: 100%;
+    }
+
+    #sobre {
+        background-color: #ff0f9f;
+        width: 100%;
+        height: 700px;
+    }
+
+    #popstars {
+        background-color: rgb(255, 227, 46);
+        width: 100%;
+        height: 700px;
+    }
+
+    #local {
+        background-color: #007fe7;
+        width: 100%;
+        height: 700px;
+
+        border-radius: 0 0 5px 5px;
+    }
+
+/*FIM DO CONTEUDO2*/
+
+/*RODAPE*/
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 50px;
+        height: 50px;
+    }
+
+    footer p {
+        text-align: center;
+        font-family: arial;
+        color: white;
+        font-size: 15px;
+        
+        height: 65px;
+
+        margin: 0 20px 0 0;
+    }
+
+    footer div p {
+        text-align: center;
+        font-family: arial;
+        color: white;
+        font-size: 15px;
+
+        height: 65px;
+
+        margin: 0 0 0 20px;
+
+        cursor: pointer;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+/*FIM DO RODAPE*/
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: 100%;
+    }
+
+}
