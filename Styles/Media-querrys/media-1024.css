@@ -326,7 +326,19 @@
         }
 
     /*fim menu-susp.css*/
-    
+
+    /*port-page.css*/
+        
+        .espaco__portifolio {
+            width: 95%;
+        }
+
+        .espaco__portifolio a {
+            width: 100%;
+        }
+
+    /*fim port-page.css*/
+
     /*rodape*/
 
         .rodape {
