@@ -1,0 +1,166 @@
+/*
+
+ESSE CÓDIGO SE REFERE À MINHA PRIMEIRA TENTATIVA DE REESTABELECER O CSS DA PÁGINA, INDEPENDENTE DO CURSO.
+
+.conteudo {
+    width: 940px;
+    margin: 40px auto;
+}
+
+.conteudo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    border: black solid 3px;
+    border-radius: 10px 10px 0 0;
+}
+
+.banner {
+    width: 940px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 40px;
+}
+
+.conteudo h2 {
+    background-color: black;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.sobre {
+    border: black solid 3px;
+}
+
+.conteudo p {
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.imagembeneficios {
+    display: inline-block;
+    width: 940px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 40px;
+}
+
+.benef ul {
+    border: black solid 3px;
+    border-radius: 0 0 10px 10px;
+}
+
+.benef li{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+*/
+
+@import url(../alert.css);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa {
+    padding: 3em 0;
+    border-top: 2px solid #555555;
+    background-color: #555555;
+}
+
+.mapa h3 {
+    color: white;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+    color: white;
+}
+
+.beneficios {
+    padding: 3em 0;
+    border-top: 2px solid #555555;
+}
+
+.conteudo-beneficios {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo h3 {
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-align: start;
+}
+
+.lista-beneficios {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+.itens {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.itens:before {
+	content: "★ ";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%
+}
+
+.video {
+    width: 560px;
+    margin-left: 2em;
+}
