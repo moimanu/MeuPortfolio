@@ -334,6 +334,26 @@
 
     /*fim portifolio.css*/
 
+    /*espaco-portifolio.css*/
+
+        .bt__voltar__portifolio {
+            margin: 15px;
+        }
+
+        .espaco__portifolio {
+            margin: 0px;
+        }
+
+        #ultimo__site {
+            margin-bottom: 0px;
+        }
+
+        .espaco__portifolio a {
+            margin: 0 15px 30px;
+        }
+
+    /*fim espaco-portifolio.css*/
+
     /*menu-susp.css*/
 
         .menu__suspenso {
