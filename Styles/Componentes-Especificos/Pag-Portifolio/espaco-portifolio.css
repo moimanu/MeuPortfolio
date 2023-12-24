@@ -1,6 +1,33 @@
 .espaco__portifolio {
-    height: 500px;
     width: 80%;
-    border: inset;
-    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.espaco__portifolio a {
+    margin: 15px;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    width: 46%;
+    box-sizing: border-box;
+}
+
+.espaco__portifolio a:hover {
+    color: rgb(134, 134, 134);
+    border: solid 1px rgb(134, 134, 134);
+}
+
+.espaco__portifolio h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.espaco__portifolio p {
+    font-size: 0.8em;
+    text-align: justify;
 }
