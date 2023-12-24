@@ -22,6 +22,12 @@
     border: solid 1px rgb(134, 134, 134);
 }
 
+.espaco__portifolio div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .espaco__portifolio h4 {
     font-weight: bold;
     margin-bottom: 15px;
@@ -30,4 +36,10 @@
 .espaco__portifolio p {
     font-size: 0.8em;
     text-align: justify;
+}
+
+.bt__voltar__portifolio {
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--cinza-links);
 }

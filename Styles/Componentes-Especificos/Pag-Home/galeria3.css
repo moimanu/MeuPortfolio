@@ -21,7 +21,6 @@
             box-sizing: border-box;
             background-color: var(--branco);
             color: var(--cinza-principal);
-            text-align: right;
             transition: 0.3s;
         }
 

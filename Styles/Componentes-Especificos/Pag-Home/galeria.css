@@ -20,7 +20,6 @@
             padding: 26px;
             box-sizing: border-box;
             background-color: var(--branco);
-            text-align: right;
         }
 
         .bloco__descricao h2 {

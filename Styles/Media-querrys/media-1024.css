@@ -100,14 +100,12 @@
         }
     
         .bloco__galeria2 {
-            flex-direction: column;
             margin: 0px auto 0px;
             width: 90%;
             border-radius: 10px 10px 0 0 ;
         }
 
         .bloco__descricao2 {
-            width: 100%;
             border-radius: 10px 10px 0 0 ;
         }
 
@@ -129,7 +127,6 @@
         .bloco__visualizacao2 li {
             display: flex;
             flex-direction: row;
-            width: 33.33%;
             list-style: none;
         }
 
@@ -283,16 +280,17 @@
 
         .card__portifolio {
             width: auto;
-            margin: 0 0 80px 0;
+            margin: 0 0 40px 0;
             border-radius: 10px;
         }
 
         .cabecalho__card {
-            border-radius: 10px 10px 0 0;
+            border-radius: 10px;
+            color: var(--branco);
         }
 
-        .cabecalho__card p {
-            font-size: 1em;
+        .cabecalho__card a {
+            display: flex;
         }
 
         .card__portifolio:hover {
@@ -300,8 +298,8 @@
             transform: scale(1);
         }
 
-        .conteudo__card img {
-            border-radius: 0 0 10px 10px;
+        .conteudo__card {
+            display: none;
         }
 
         .capa__card {
@@ -309,12 +307,29 @@
             border-radius: 10px;
         }
 
-        #trblhs__grfcs__id {
-            margin-bottom: 0px;
+        .card__portifolio:hover .capa__card {
+            display: none;
         }
-                
+        
+        #trblhs__grfcs__id .cabecalho__card {
+            background-color: blueviolet;
+        }
+        
+        #frnt__end__id .cabecalho__card {
+            background-color: crimson;
+        }
+
         #atv__acdm__id {
-            margin-bottom: 90px;
+            margin: 0;
+        }
+
+        #atv__acdm__id .cabecalho__card {
+            background-color: rgb(0, 162, 255);
+        }
+
+        .sub__bloco__visualizacao2:hover {
+            -ms-transform: none;
+            transform: none;
         }
 
     /*fim portifolio.css*/

@@ -26,6 +26,15 @@
         text-align: justify;
     }
 
+    .cabecalho__card a {
+        display: none;
+        padding: 0px;
+    }
+
+    .cabecalho__card p {
+        font-size: 0.8em;
+    }
+
     .cabecalho__card * {
         padding-bottom: 30px;
     }
@@ -53,7 +62,7 @@
         box-sizing: border-box;
     }
 
-    .capa__card a {
+    .card__portifolio a {
         color: var(--branco);
         text-decoration: none;
     }
