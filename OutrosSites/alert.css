@@ -15,7 +15,7 @@
     }
 
     .fakebody {
-        filter: blur(15px);
+        display: none;
     }
 
     .box__mensagem__alert {
