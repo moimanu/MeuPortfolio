@@ -18,8 +18,7 @@
 }
 
 .espaco__portifolio a:hover {
-    color: rgb(134, 134, 134);
-    border: solid 1px rgb(134, 134, 134);
+    opacity: 60%;
 }
 
 .espaco__portifolio div {
@@ -36,10 +35,20 @@
 .espaco__portifolio p {
     font-size: 0.8em;
     text-align: justify;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .bt__voltar__portifolio {
     margin-top: 30px;
     text-decoration: none;
     color: var(--cinza-links);
+}
+
+.icone__olho {
+    filter: invert(1);
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
