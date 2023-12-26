@@ -1,0 +1,62 @@
+#pag__crimson {
+    border-top: solid 5px crimson;
+}
+
+#pag__dodgerblue {
+    border-top: solid 5px dodgerblue;
+}
+
+.espaco__portifolio {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.espaco__portifolio a {
+    margin: 15px;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    width: 46%;
+    box-sizing: border-box;
+}
+
+.espaco__portifolio a:hover {
+    opacity: 60%;
+}
+
+.espaco__portifolio div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.espaco__portifolio h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.espaco__portifolio p {
+    font-size: 0.8em;
+    text-align: justify;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.bt__voltar__portifolio {
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--cinza-links);
+}
+
+.icone__olho {
+    filter: invert(1);
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
