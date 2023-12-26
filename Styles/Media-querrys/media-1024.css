@@ -325,7 +325,7 @@
         }
 
         #atv__acdm__id .cabecalho__card {
-            background-color: rgb(0, 162, 255);
+            background-color: dodgerblue;
         }
 
     /*fim portifolio.css*/
@@ -346,6 +346,10 @@
 
         .espaco__portifolio a {
             margin: 0 15px 30px;
+        }
+
+        #box__portifolio__atividades {
+            width: 100%;
         }
 
     /*fim espaco-portifolio.css*/
