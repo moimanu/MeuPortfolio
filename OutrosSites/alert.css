@@ -20,7 +20,6 @@
 
     .box__mensagem__alert {
         display: flex;
-        border: solid 1px white;
         justify-content: center;
         text-align: center;
         align-items: center;
