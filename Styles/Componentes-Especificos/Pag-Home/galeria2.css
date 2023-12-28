@@ -11,7 +11,7 @@
     .bloco__galeria2 {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: 30px auto 0px;
         box-shadow: var(--preto-sombra);
         background-color: var(--branco);
@@ -62,7 +62,7 @@
     }
 
     .bloco__legenda__galeria2 {
-        width: 80%;
+        width: 100%;
         background-color: var(--branco);
         color: var(--cinza-secundario);
         padding: 40px 26px;

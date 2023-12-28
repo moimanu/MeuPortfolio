@@ -7,7 +7,7 @@
     .bloco__galeria3 {
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 100%;
         margin: 30px auto 80px;
         box-shadow: var(--preto-sombra);
         background-color: var(--branco);
