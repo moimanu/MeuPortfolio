@@ -136,6 +136,7 @@
             text-decoration: none;
             color: var(--branco);
             border-right: 2px solid var(--cinza-secundario);
+            opacity: 40%;
         }
 
         .nav__mobile img {
