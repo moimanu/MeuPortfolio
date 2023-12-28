@@ -348,6 +348,14 @@
             margin: 0 15px 30px;
         }
 
+        .espaco__portifolio {
+            width: 95%;
+        }
+
+        .espaco__portifolio a {
+            width: 100%;
+        }
+
     /*fim espaco-portifolio.css*/
 
     /*menu-susp.css*/
@@ -358,17 +366,14 @@
 
     /*fim menu-susp.css*/
 
-    /*port-page.css*/
-        
-        .espaco__portifolio {
-            width: 95%;
+    /*resumo.css*/
+    
+        .box__resumo {
+            margin: 0 30px 30px 30px;
         }
 
-        .espaco__portifolio a {
-            width: 100%;
-        }
+    /*fim resumo.css*/
 
-    /*fim port-page.css*/
 
     /*rodape*/
 
