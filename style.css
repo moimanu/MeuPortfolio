@@ -10,6 +10,7 @@
 @import url(Styles/Componentes-Especificos/Pag-Sobre/bloco-sobre.css);
 @import url(Styles/Componentes-Especificos/Pag-Sobre/curriculo.css);
 
+@import url(Styles/Media-querrys/media-1600.css);
 @import url(Styles/Media-querrys/media-1024.css);
 @import url(Styles/Media-querrys/media-600.css);
 
@@ -47,4 +48,18 @@ body {
 
 ::selection {
     background-color: rgb(242, 0, 255);
+}
+
+main {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: fit-content;
+    }
 }
