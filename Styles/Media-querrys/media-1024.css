@@ -368,8 +368,12 @@
 
     /*resumo.css*/
     
+        .resumo {
+            width: 95%;
+        }
+
         .box__resumo {
-            margin: 0 30px 30px 30px;
+            margin: 0 15px 30px;
         }
 
     /*fim resumo.css*/
