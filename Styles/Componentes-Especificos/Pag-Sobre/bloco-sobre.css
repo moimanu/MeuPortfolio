@@ -23,6 +23,10 @@
         text-align: justify;
     }
 
+    .texto__resumo__sobre p {
+        margin: 20px 0;
+    }
+
     .bt__ver__curriculum {
         display: flex;
         width: 313.2px;
