@@ -139,6 +139,10 @@
 
 @media print {
 
+    .curriculo {
+        width: 80%;
+    }
+
     .curriculo a {
         display: none;
     }
@@ -156,7 +160,7 @@
         padding: 0;
         margin: auto;
         font-family: none;
-        font-size: 1em;
+        font-size: 0.85em;
     }
 
     #bt__certificado {
