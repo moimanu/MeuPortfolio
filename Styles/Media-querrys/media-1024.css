@@ -49,10 +49,6 @@
             border-radius: 10px 10px 0 0;
         }
         
-        .bloco__descricao p {
-            font-size: 1em;
-        }
-
         .bloco__visualizacao {
             width: 100%;
             flex-direction: column;
