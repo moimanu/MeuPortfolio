@@ -28,11 +28,12 @@
 
         .bloco__visualizacao {
             display: none;
-            flex-direction: row;
+            flex-direction: column;
         }
 
         .bloco__visualizacao li {
             flex-direction: column;
+            width: 100%;
         }
         
         .bt__abrir__fechar {

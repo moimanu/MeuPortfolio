@@ -51,12 +51,6 @@
         
         .bloco__visualizacao {
             width: 100%;
-            flex-direction: column;
-        }
-        
-        .bloco__visualizacao li {
-            flex-direction: row;
-            width: 100%;
         }
         
         .sub__bloco__visualizacao {
