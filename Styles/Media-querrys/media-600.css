@@ -40,17 +40,13 @@
             display: flex;
         }
 
-        .bt__voltar__galeria {
-            display: flex;
-            border-radius: 0 0 10px 10px;
-        }
-
         .input__abrir__fechar:checked ~ .bloco__visualizacao {
             display: flex;
         }
 
         .input__abrir__fechar:checked ~ .bt__abrir__fechar {
-            background-color: var(--vermelho-alerta);
+            transform: rotate(-180deg);
+            transition: 0s;
         }
 
         .nav__mobile p {
