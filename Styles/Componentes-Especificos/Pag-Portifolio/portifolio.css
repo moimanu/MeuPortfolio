@@ -67,11 +67,11 @@
     }
 
     .capa__trabalhos__graficos {
-        background-color: blueviolet;
+        background-color:darkorchid;
     }
 
     .capa__frontend {
-        background-color: mediumorchid;
+        background-color: indigo;
     }
 
     .card__portifolio:hover {
