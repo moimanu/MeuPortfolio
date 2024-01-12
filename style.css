@@ -43,7 +43,7 @@ body {
     align-items: center;
     width: 100%;
     color: var(--cinza-principal);
-    background-image: linear-gradient(to right, #e7fdff, #e3e6ff);
+    background-image: linear-gradient(to bottom right, #e7fdff, #efe3ff);
     font-family: var(--fonte-principal);
 }
 
