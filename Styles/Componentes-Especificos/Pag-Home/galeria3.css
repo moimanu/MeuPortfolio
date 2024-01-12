@@ -41,6 +41,10 @@
             color: var(--cinza-principal);
         }
 
+        .bloco__texto a:hover {
+            opacity: 60%;
+        }
+
     /*FIM BLOCO TEXTO*/
 
 /*FIM GALERIA3*/
