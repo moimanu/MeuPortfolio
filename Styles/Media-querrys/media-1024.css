@@ -249,16 +249,16 @@
 
     /*fim sobre.css*/
 
-    /*portifolio.css*/
+    /*portfolio.css*/
 
-        .portifolio {
+        .portfolio {
             flex-direction: column;
             width: 90%;
             margin-bottom: 0px;
             align-items: center;
         }
 
-        .card__portifolio {
+        .card__portfolio {
             width: auto;
             margin: 0 0 40px 0;
             border-radius: 10px;
@@ -283,12 +283,12 @@
             border-radius: 10px;
         }
 
-        .card__portifolio:hover {
+        .card__portfolio:hover {
             -ms-transform: scale(1);
             transform: scale(1);
         }
 
-        .card__portifolio:hover .capa__card {
+        .card__portfolio:hover .capa__card {
             display: none;
         }
         
@@ -308,28 +308,28 @@
             background-color: dodgerblue;
         }
 
-    /*fim portifolio.css*/
+    /*fim portfolio.css*/
 
-    /*espaco-portifolio.css*/
+    /*espaco-portfolio.css*/
 
-        .bt__voltar__portifolio {
+        .bt__voltar__portfolio {
             margin: 15px;
         }
 
-        .espaco__portifolio {
+        .espaco__portfolio {
             margin: 0px;
         }
 
-        .espaco__portifolio a {
+        .espaco__portfolio a {
             margin: 0 15px 30px;
             width: 44%;
         }
 
-        .espaco__portifolio {
+        .espaco__portfolio {
             width: 95%;
         }
 
-    /*fim espaco-portifolio.css*/
+    /*fim espaco-portfolio.css*/
 
     /*menu-susp.css*/
 

@@ -118,7 +118,7 @@
 
     /*fim sobre.css*/
 
-    /*portifolio.css*/
+    /*portfolio.css*/
 
         .cabecalho__card {
             padding: 20px;
@@ -128,19 +128,19 @@
             font-size: 0.8em;
         }
 
-    /*fim portifolio.css*/
+    /*fim portfolio.css*/
 
-    /*espaco-portifolio.css*/
+    /*espaco-portfolio.css*/
 
         #ultima__ancora {
             margin-bottom: 0px;
         }
 
-        .espaco__portifolio a {
+        .espaco__portfolio a {
             margin: 0 15px 30px;
             width: 100%;
         }
 
-    /*fim espaco-portifolio.css*/
+    /*fim espaco-portfolio.css*/
 
 }
