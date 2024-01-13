@@ -1,0 +1,17 @@
+.resumo {
+    display: flex;
+    justify-content: center;
+}
+
+.resumo * {
+    margin: 15px;
+}
+
+.box__resumo {
+    margin: 30px 15px 15px;
+    border-radius: 20px;
+    background-color: var(--branco);
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: var(--preto-sombra);
+}

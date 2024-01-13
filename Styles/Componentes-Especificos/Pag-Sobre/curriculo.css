@@ -1,0 +1,182 @@
+/*CURRICULO*/
+
+    .links {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cinza-links);
+    }
+
+    .curriculo {
+        display: none;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        padding: 2em 3.5em;
+        box-sizing: border-box;
+        background-color: var(--branco);
+        box-shadow: var(--preto-sombra);
+    }
+
+    .curriculo a {
+        text-decoration: none;
+        color: var(--cinza-links);
+    }
+
+    .nome {
+        margin-bottom: .5em;
+    }
+
+    .dados__pessoais {
+        margin-bottom: 3em;
+    }
+
+    .box {  
+        margin: 1em 0;
+    }
+
+    .subtitulo {
+        padding-bottom: 0.5em;
+        border-bottom: solid 3px var(--cinza-terciario);
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1em 0;
+        margin: 1em 0;
+        box-sizing: border-box;
+    }
+
+    #bt__certificado {
+        display: flex;
+        height: fit-content;
+        background-color: var(--cinza-principal);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0 0 0 20px;
+        transition: 0.3s;
+    }
+
+    #bt__certificado:hover {
+        filter: opacity(70%);
+        transition: 0.3s;
+    }
+
+    .conteudo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .referencia {
+        margin-bottom: 1em;
+    }
+
+    .subconteudo {
+        width: 50%;
+    }
+
+    .subconteudo__com__certificado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .empresa {
+        margin-bottom: 1em;
+    }
+
+    .competencias li {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .habilidades li {
+        list-style-type: none;
+        padding: 0 1em;
+        box-sizing: border-box;
+        font-size: 1em;
+    }
+
+    .box__impressao {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .bt__imprimir {
+        width: auto;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin: 26px 0 26px auto;
+        background-color: var(--cinza-principal);
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 1em;
+        transition: 0.3s;
+    }
+
+    .bt__imprimir:hover {
+        opacity: 70%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+/*FIM CURRICULO*/
+
+@media print {
+
+    .curriculo {
+        width: 80%;
+    }
+
+    .curriculo a {
+        display: none;
+    }
+
+    .cabecalho {
+        display: none;
+    }
+
+    .bloco__sobre {
+        display: none;
+    }
+
+    .curriculo {
+        box-shadow: none;
+        padding: 0;
+        margin: auto;
+        font-family: none;
+        font-size: 0.85em;
+    }
+
+    #bt__certificado {
+        display: none;
+    }
+
+    .bt__imprimir {
+        display: none;
+    }
+
+    .apresentacao {
+        display: none;
+    }
+
+    .rodape {
+        display: none;
+    }
+    
+}
