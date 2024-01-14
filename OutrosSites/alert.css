@@ -10,7 +10,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 100vh;
         z-index: 100;
     }
 
@@ -20,7 +19,8 @@
 
     .box__mensagem__alert {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
         text-align: center;
         align-items: center;
         width: 100%;
@@ -31,20 +31,15 @@
         padding: 20px;
     }
 
-    .box__mensagem__alert p {
+    .box__mensagem__alert * {
+        margin: 15px 0px;
         color: white;
+        text-decoration: none
     }
 
-    .miniatura__site {
+    .thumb__sites {
         width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .miniatura__site img {
-        width: 80%;
-        border-radius: 20px;
+        border-radius: 10px;
+        border: 1px solid #3c3c3c;
     }
 }
