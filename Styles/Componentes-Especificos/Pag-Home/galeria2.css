@@ -29,11 +29,6 @@
         margin: 0 0 25px 0;
     }
 
-    .bloco__descricao2 a {
-        color: var(--cinza-terciario);
-        text-decoration: none;
-    }
-
     .bloco__visualizacao2 {
         display: flex;
         flex-direction: row;
@@ -60,6 +55,7 @@
         width: 100%;
         height: 100%;
     }
+
 
     .bloco__legenda__galeria2 {
         width: 100%;
