@@ -293,19 +293,19 @@
         }
         
         #trblhs__grfcs__id .cabecalho__card {
-            background-color: darkorchid;
+            background-image: linear-gradient(to right, darkorchid, #771a92);
         }
         
         #frnt__end__id .cabecalho__card {
-            background-color: indigo;
+            background-image: linear-gradient(to right, indigo, #24193c);
+        }
+
+        #atv__acdm__id .cabecalho__card {
+            background-image: linear-gradient(to right, dodgerblue, #1617f7);
         }
 
         #atv__acdm__id {
             margin: 0;
-        }
-
-        #atv__acdm__id .cabecalho__card {
-            background-color: dodgerblue;
         }
 
     /*fim portfolio.css*/
