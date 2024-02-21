@@ -170,6 +170,7 @@
 
         .bt__ver__curriculum__mobile {
             margin: 0 auto 20px 0;
+            width: 100%;
             display: flex;
         }
     
