@@ -72,6 +72,11 @@
     background-color: transparent;
 }
 
+.bt__voltar__portfolio:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 .icone__olho {
     filter: invert(1);
     width: 15px;
