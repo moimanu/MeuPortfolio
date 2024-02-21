@@ -135,6 +135,26 @@
         transition: 0.3s;
     }
 
+    .acesse_portifolio {
+        align-items: center;
+        justify-content: space-evenly;
+        height: fit-content;
+        padding: 30px;
+        border-radius: 20px;
+        border: solid 1px black;
+        box-sizing: border-box;
+        margin-top: 820px;
+        display: none;
+    }
+
+    .box_descricao {
+        width: 100%;
+    }
+
+    .box_descricao p {
+        margin-top: 10px;
+    }
+
 /*FIM CURRICULO*/
 
 @media print {
@@ -160,7 +180,7 @@
         padding: 0;
         margin: auto;
         font-family: none;
-        font-size: 0.85em;
+        font-size: 0.9em;
     }
 
     #bt__certificado {
@@ -179,4 +199,7 @@
         display: none;
     }
     
+    .acesse_portifolio {
+        display: flex;
+    }
 }
