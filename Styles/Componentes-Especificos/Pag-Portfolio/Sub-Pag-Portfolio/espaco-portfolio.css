@@ -64,9 +64,12 @@
 }
 
 .bt__voltar__portfolio {
+    font-size: 16px;
     margin-top: 30px;
     text-decoration: none;
     color: var(--cinza-links);
+    border: none;
+    background-color: transparent;
 }
 
 .icone__olho {
