@@ -37,6 +37,16 @@
         text-decoration: none
     }
 
+    .bt__voltar {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+    }
+
+    .bt__voltar:active {
+        opacity: 70%;
+    }
+
     .thumb__sites {
         width: 100%;
         border-radius: 10px;
