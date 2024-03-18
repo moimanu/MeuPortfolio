@@ -143,7 +143,7 @@
         border-radius: 20px;
         border: dashed 2px #272727;
         box-sizing: border-box;
-        margin-top: 700px;
+        margin-top: 490px;
         display: none;
     }
 
@@ -180,7 +180,7 @@
         padding: 0;
         margin: auto;
         font-family: none;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     #bt__certificado {
