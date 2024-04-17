@@ -74,6 +74,10 @@
         background-color: indigo;
     }
 
+    .capa__projetos__programacao {
+        background-color: cadetblue;
+    }
+
     .card__portfolio:hover {
         -ms-transform: scale(1.3);
         transform: scale(1.1);
@@ -89,4 +93,9 @@
         transition: 0.5s;
     }
 
+    #proj__prog__id {
+        width: 100%; 
+        margin: 0 0 0 0;
+    }
+    
 /*FIM PORTFOLIO*/
