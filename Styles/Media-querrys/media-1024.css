@@ -306,6 +306,14 @@
             background-image: radial-gradient(circle at 25%, rgb(0, 83, 228), dodgerblue);
         }
 
+        #proj__prog__id .cabecalho__card {
+            background-image: radial-gradient(circle at 25%, rgb(0, 162, 165), cadetblue);
+        }
+
+        #proj__prog__id {
+            margin-top: 40px;
+        }
+
         #atv__acdm__id {
             margin: 0;
         }        
