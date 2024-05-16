@@ -43,6 +43,7 @@
 
 * {
     margin: 0;
+    text-size-adjust: none;
 }
 
 html {
